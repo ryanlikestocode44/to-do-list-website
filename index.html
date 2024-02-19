@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Simple To-do-list Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/to-do-list.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h2 class="title">To-do-list Website</h2>
+        <a href="#"><img src="./img/github.png" alt="Github Logo" class="logo"></a>
+    </header>
+    <main>
+        <div id="todo-container">
+            <label class="greeting" for="input-todo" ><h1>What Activity Do You Want To Add?</h1></label>
+            <div class="wrapper">
+                <div class="input-wrapper">
+                    <input id="input-todo" type="text" placeholder="Add your task...">
+                    <button class="add-btn" type="submit">Add</button>
+                    <p>Your list will appear here</p>
+                </div>
+
+                <div class="output-wrapper">
+                    <ul id="todo-list">
+                        
+                        <!-- <li class="todo">
+                            <p>I want to study today</p>
+                            <div class="controls">
+                                <i class="fa fa-trash-o delete" aria-hidden="true"></i>
+                            </div>
+                        </li> -->
+                       
+                    </ul>
+                </div>
+
+                <div class="controls">
+                    <button class="show-btn">Show All Tasks</button>
+                    <button class="clear-btn">Delete All Tasks</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/3b50790b29.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
